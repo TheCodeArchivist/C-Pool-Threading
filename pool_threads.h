@@ -1,10 +1,5 @@
 #ifndef ThreadPool_Structs
 #define ThreadPool_Structs
-    typedef struct Instruction {
-        int instruction_id;
-        void* func_exec;
-    } Instruction;
-
     typedef struct Worker {
         int worker_id;
 
