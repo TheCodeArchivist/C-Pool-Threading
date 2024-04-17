@@ -1,3 +1,11 @@
+#ifndef Bool
+#define Bool
+typedef enum bool {
+    false,
+    true
+} bool;
+#endif
+
 #ifndef UnsintPrint
 #define UnsintPrint
     void print_unsint(int num) {
